@@ -1,0 +1,491 @@
+[2014-02-27 12:42:38,602]ERROR 76923[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:17,712]ERROR 36209[Thread-30-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 11:57:17,895]ERROR 36392[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:24,592]ERROR 43089[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:24,621]ERROR 43118[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:26,004]ERROR 44501[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:30,464]ERROR 48961[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:30,490]ERROR 48987[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:31,268]ERROR 49765[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:31,287]ERROR 49784[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:32,475]ERROR 50972[Thread-28-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.transport.TTransportException: Read a negative frame size (-2147418110)!
+[2014-03-03 11:57:35,534]ERROR 54031[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:35,569]ERROR 54066[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:36,861]ERROR 55358[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:36,913]ERROR 55410[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:40,751]ERROR 59248[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:40,772]ERROR 59269[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:41,938]ERROR 60435[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:45,682]ERROR 64179[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 11:57:49,786]ERROR 68283[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:52:05,879]ERROR  8984[Thread-36-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2014-03-03 12:52:07,159]ERROR 10264[Thread-56-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:55:37,194]ERROR 51158[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:41,400]ERROR 55364[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:41,402]ERROR 55366[Thread-22-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:55:41,405]ERROR 55369[Thread-28-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2014-03-03 12:55:41,442]ERROR 55406[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:42,667]ERROR 56631[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:46,930]ERROR 60894[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:47,605]ERROR 61569[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:47,609]ERROR 61573[Thread-48-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:55:47,637]ERROR 61601[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:52,798]ERROR 66762[Thread-30-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:55:52,811]ERROR 66775[Thread-48-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:55:58,026]ERROR 71990[Thread-56-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:55:58,085]ERROR 72049[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:04,301]ERROR 78265[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:04,530]ERROR 78494[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:09,400]ERROR 83364[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:09,460]ERROR 83424[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:12,900]ERROR 86864[Thread-48-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 12:56:14,019]ERROR 87983[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:14,046]ERROR 88010[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:18,776]ERROR 92740[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:18,814]ERROR 92778[Thread-38-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2014-03-03 12:56:18,833]ERROR 92797[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:24,993]ERROR 98957[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:25,027]ERROR 98991[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:29,751]ERROR103715[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:29,770]ERROR103734[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:45,145]ERROR119109[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:45,163]ERROR119127[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:51,128]ERROR125092[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:51,146]ERROR125110[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:55,723]ERROR129687[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:56:55,768]ERROR129732[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:04,015]ERROR137979[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:04,032]ERROR137996[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:09,288]ERROR143252[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:09,517]ERROR143481[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:15,061]ERROR149025[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:15,284]ERROR149248[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:21,286]ERROR155250[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:21,303]ERROR155267[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:25,532]ERROR159496[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:25,551]ERROR159515[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:31,120]ERROR165084[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:31,148]ERROR165112[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:36,090]ERROR170054[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:36,312]ERROR170276[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:41,225]ERROR175189[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:41,244]ERROR175208[Thread-28-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:45,830]ERROR179794[Thread-28-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:46,052]ERROR180016[Thread-28-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 12:57:50,326]ERROR184290[Thread-28-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:01:35,834]ERROR 42211[Thread-30-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 13:01:39,095]ERROR 45472[Thread-28-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.transport.TTransportException: Read a negative frame size (-2147418109)!
+[2014-03-03 13:01:50,414]ERROR 56791[Thread-22-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 13:48:44,704]ERROR 20297[Thread-36-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2014-03-03 13:48:55,406]ERROR 30999[Thread-40-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-03 13:48:55,406]ERROR 30999[Thread-46-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2014-03-03 13:52:18,654]ERROR 12665[Thread-36-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.transport.TTransportException: Read a negative frame size (-2147418110)!
+[2014-03-03 13:52:18,684]ERROR 12695[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:19,656]ERROR 13667[Thread-38-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.transport.TTransportException
+[2014-03-03 13:52:22,826]ERROR 16837[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:23,046]ERROR 17057[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:28,292]ERROR 22303[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:28,516]ERROR 22527[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:33,329]ERROR 27340[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:33,552]ERROR 27563[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:39,557]ERROR 33568[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:39,658]ERROR 33669[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:44,882]ERROR 38893[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:44,901]ERROR 38912[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:51,070]ERROR 45081[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:51,088]ERROR 45099[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:55,938]ERROR 49949[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:52:55,957]ERROR 49968[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:00,809]ERROR 54820[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:00,827]ERROR 54838[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:06,280]ERROR 60291[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:06,298]ERROR 60309[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:10,580]ERROR 64591[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:10,650]ERROR 64661[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:15,477]ERROR 69488[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:15,575]ERROR 69586[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:20,290]ERROR 74301[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:20,308]ERROR 74319[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:25,421]ERROR 79432[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:25,645]ERROR 79656[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:30,649]ERROR 84660[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:30,667]ERROR 84678[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:34,893]ERROR 88904[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:34,911]ERROR 88922[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:39,680]ERROR 93691[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:39,940]ERROR 93951[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:44,595]ERROR 98606[Thread-34-ThresholdBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:44,616]ERROR 98627[Thread-46-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:49,147]ERROR103158[Thread-46-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:49,164]ERROR103175[Thread-46-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 13:53:54,294]ERROR108305[Thread-46-cassandraBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-03 16:08:29,749]ERROR 44108[Thread-40-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:14:51,755]ERROR 15952[Thread-38-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:16:04,600]ERROR 14111[Thread-34-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:04,605]ERROR 14116[Thread-34-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:16:04,643]ERROR 14154[Thread-34-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:04,740]ERROR 14251[Thread-26-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:04,766]ERROR 14277[Thread-26-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:04,790]ERROR 14301[Thread-26-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,450]ERROR 29961[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,498]ERROR 30009[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,551]ERROR 30062[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,589]ERROR 30100[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,638]ERROR 30149[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:16:20,680]ERROR 30191[Thread-38-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:15,027]ERROR 19617[Thread-40-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:17:15,866]ERROR 20456[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:15,907]ERROR 20497[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:15,948]ERROR 20538[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:15,987]ERROR 20577[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,026]ERROR 20616[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,059]ERROR 20649[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,090]ERROR 20680[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,121]ERROR 20711[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,151]ERROR 20741[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,184]ERROR 20774[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,219]ERROR 20809[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,255]ERROR 20845[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,283]ERROR 20873[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,324]ERROR 20914[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,358]ERROR 20948[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,389]ERROR 20979[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,419]ERROR 21009[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:17:16,457]ERROR 21047[Thread-28-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 11:25:30,587]ERROR 43280[Thread-34-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:25:31,702]ERROR 44395[Thread-34-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2014-03-04 11:34:39,117]ERROR 24133[Thread-40-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 13:01:48,354]ERROR 25232[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 13:01:48,436]ERROR 25314[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2014-03-04 13:01:48,511]ERROR 25389[Thread-38-cassandraBolt](EventDao.java:84) - java.sql.SQLNonTransientConnectionException: org.apache.thrift.TApplicationException: execute_cql_query failed: out of sequence response
+[2018-05-08 04:13:24,386]ERROR471010[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:24,388]ERROR471012[Thread-58-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:24,388]ERROR471012[Thread-50-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:24,392]ERROR471016[Thread-50-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:24,388]ERROR471012[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:24,393]ERROR471017[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:24,392]ERROR471016[Thread-58-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:24,391]ERROR471015[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:27,460]ERROR474084[Thread-50-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:27,461]ERROR474085[Thread-50-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:27,460]ERROR474084[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:27,461]ERROR474085[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:27,460]ERROR474084[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:27,462]ERROR474086[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:30,529]ERROR477153[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:30,529]ERROR477153[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:30,529]ERROR477153[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:30,529]ERROR477153[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 04:13:33,601]ERROR480225[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 04:13:33,601]ERROR480225[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:37,505]ERROR404129[Thread-41-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:37,505]ERROR404129[Thread-50-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:37,506]ERROR404130[Thread-50-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:37,505]ERROR404129[Thread-58-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:37,507]ERROR404131[Thread-58-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:37,505]ERROR404129[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:37,507]ERROR404131[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:37,506]ERROR404130[Thread-41-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:40,576]ERROR407200[Thread-41-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:40,577]ERROR407201[Thread-41-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:40,576]ERROR407200[Thread-58-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:40,577]ERROR407201[Thread-58-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:40,576]ERROR407200[Thread-50-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:40,577]ERROR407201[Thread-50-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:43,649]ERROR410273[Thread-41-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:43,649]ERROR410273[Thread-41-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:43,649]ERROR410273[Thread-58-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:43,650]ERROR410274[Thread-58-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:35:46,721]ERROR413345[Thread-41-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:35:46,721]ERROR413345[Thread-41-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:20,257]ERROR446881[Thread-50-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:20,257]ERROR446881[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:20,284]ERROR446908[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:20,257]ERROR446881[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:20,285]ERROR446909[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:20,283]ERROR446907[Thread-50-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:23,328]ERROR449952[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:23,329]ERROR449953[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:23,328]ERROR449952[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:23,329]ERROR449953[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:26,400]ERROR453024[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:26,401]ERROR453025[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:26,400]ERROR453024[Thread-30-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:26,401]ERROR453025[Thread-30-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:29,473]ERROR456097[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:29,473]ERROR456097[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:32,544]ERROR459168[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:32,545]ERROR459169[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-08 05:36:35,616]ERROR462240[Thread-22-AuthenticationBolt](CassandraConnector.java:54) - unable to connect Cassandra
+[2018-05-08 05:36:35,617]ERROR462241[Thread-22-AuthenticationBolt](CassandraConnector.java:60) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:00,452]ERROR301103[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:00,454]ERROR301105[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:00,454]ERROR301105[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:00,486]ERROR301137[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:00,454]ERROR301105[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:00,488]ERROR301139[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:00,454]ERROR301105[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:00,489]ERROR301140[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:00,485]ERROR301136[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:00,484]ERROR301135[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:03,522]ERROR304173[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:03,524]ERROR304175[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:03,522]ERROR304173[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:03,524]ERROR304175[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:03,522]ERROR304173[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:03,525]ERROR304176[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:06,594]ERROR307245[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:06,594]ERROR307245[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:06,595]ERROR307246[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:06,595]ERROR307246[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:26:09,667]ERROR310318[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:26:09,667]ERROR310318[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,809]ERROR617460[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,809]ERROR617460[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,810]ERROR617461[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,809]ERROR617460[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,809]ERROR617460[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,809]ERROR617460[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,810]ERROR617461[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,809]ERROR617460[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,811]ERROR617462[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,814]ERROR617465[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,814]ERROR617465[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,811]ERROR617462[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,829]ERROR617480[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,829]ERROR617480[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,840]ERROR617491[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,840]ERROR617491[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,841]ERROR617492[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,841]ERROR617492[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:31:16,841]ERROR617492[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:31:16,841]ERROR617492[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,452]ERROR671103[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,453]ERROR671104[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,456]ERROR671107[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,457]ERROR671108[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,460]ERROR671111[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,460]ERROR671111[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,460]ERROR671111[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,463]ERROR671114[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,463]ERROR671114[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,460]ERROR671111[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,480]ERROR671131[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,480]ERROR671131[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,480]ERROR671131[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,483]ERROR671134[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,487]ERROR671138[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,487]ERROR671138[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,490]ERROR671141[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,490]ERROR671141[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:32:10,491]ERROR671142[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:32:10,491]ERROR671142[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,826]ERROR108477[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,826]ERROR108477[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,826]ERROR108477[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,827]ERROR108478[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,826]ERROR108477[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,828]ERROR108479[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,828]ERROR108479[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,828]ERROR108479[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,828]ERROR108479[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,828]ERROR108479[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,830]ERROR108481[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,830]ERROR108481[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,832]ERROR108483[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,832]ERROR108483[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,833]ERROR108484[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,834]ERROR108485[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,836]ERROR108487[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,836]ERROR108487[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:39:27,836]ERROR108487[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:39:27,836]ERROR108487[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,311]ERROR231962[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,340]ERROR231991[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,314]ERROR231965[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,341]ERROR231992[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,314]ERROR231965[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,342]ERROR231993[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,313]ERROR231964[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,343]ERROR231994[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,359]ERROR232010[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,359]ERROR232010[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,359]ERROR232010[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,359]ERROR232010[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,359]ERROR232010[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,360]ERROR232011[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,361]ERROR232012[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,361]ERROR232012[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,362]ERROR232013[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,362]ERROR232013[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 18:41:31,364]ERROR232015[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 18:41:31,364]ERROR232015[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,019]ERROR978670[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,026]ERROR978677[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,033]ERROR978684[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,026]ERROR978677[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,033]ERROR978684[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,025]ERROR978676[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,034]ERROR978685[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,022]ERROR978673[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,034]ERROR978685[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,033]ERROR978684[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,061]ERROR978712[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,061]ERROR978712[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,061]ERROR978712[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,061]ERROR978712[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,061]ERROR978712[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,062]ERROR978713[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,064]ERROR978715[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,064]ERROR978715[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:10:38,066]ERROR978717[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:10:38,066]ERROR978717[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,694]ERROR141345[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,699]ERROR141350[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,728]ERROR141379[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,697]ERROR141348[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,729]ERROR141380[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,696]ERROR141347[Thread-48-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,731]ERROR141382[Thread-48-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,696]ERROR141347[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,731]ERROR141382[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,728]ERROR141379[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,767]ERROR141418[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,767]ERROR141418[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,767]ERROR141418[Thread-57-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,768]ERROR141419[Thread-57-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,768]ERROR141419[Thread-22-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,768]ERROR141419[Thread-22-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,770]ERROR141421[Thread-40-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,770]ERROR141421[Thread-40-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:13:20,771]ERROR141422[Thread-30-AuthenticationBolt](CassandraConnector.java:55) - unable to connect Cassandra
+[2018-05-09 19:13:20,771]ERROR141422[Thread-30-AuthenticationBolt](CassandraConnector.java:61) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,915]ERROR 46364[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,916]ERROR 46365[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,937]ERROR 46386[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,916]ERROR 46365[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,938]ERROR 46387[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,915]ERROR 46364[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,939]ERROR 46388[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,915]ERROR 46364[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,941]ERROR 46390[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,936]ERROR 46385[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,961]ERROR 46410[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,961]ERROR 46410[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,968]ERROR 46417[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,968]ERROR 46417[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,968]ERROR 46417[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,969]ERROR 46418[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,978]ERROR 46427[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,979]ERROR 46428[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:18:49,986]ERROR 46435[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:18:49,986]ERROR 46435[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,153]ERROR138602[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,153]ERROR138602[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,156]ERROR138605[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,156]ERROR138605[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,161]ERROR138610[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,162]ERROR138611[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,167]ERROR138616[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,167]ERROR138616[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,172]ERROR138621[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,172]ERROR138621[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,177]ERROR138626[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,178]ERROR138627[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,178]ERROR138627[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,178]ERROR138627[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,190]ERROR138639[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,190]ERROR138639[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,195]ERROR138644[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,195]ERROR138644[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:20:22,199]ERROR138648[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:20:22,199]ERROR138648[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,780]ERROR725229[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,780]ERROR725229[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,783]ERROR725232[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,783]ERROR725232[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,784]ERROR725233[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,784]ERROR725233[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,784]ERROR725233[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,784]ERROR725233[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,789]ERROR725238[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,790]ERROR725239[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,789]ERROR725238[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,790]ERROR725239[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,791]ERROR725240[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,791]ERROR725240[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,797]ERROR725246[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,797]ERROR725246[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,809]ERROR725258[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,809]ERROR725258[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:30:08,812]ERROR725261[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:30:08,812]ERROR725261[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,744]ERROR852193[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,745]ERROR852194[Thread-22-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,745]ERROR852194[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,745]ERROR852194[Thread-30-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,747]ERROR852196[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,747]ERROR852196[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,750]ERROR852199[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,750]ERROR852199[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,754]ERROR852203[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,754]ERROR852203[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,755]ERROR852204[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,755]ERROR852204[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,759]ERROR852208[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,759]ERROR852208[Thread-48-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,759]ERROR852208[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,759]ERROR852208[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,761]ERROR852210[Thread-56-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,761]ERROR852210[Thread-56-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:32:15,762]ERROR852211[Thread-40-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:32:15,762]ERROR852211[Thread-40-AuthenticationBolt](CassandraConnector.java:64) - Cassandra cluster failed...... All nodes are down or Keyspace not available......
+[2018-05-09 19:43:25,047]ERROR558652[Thread-50-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,047]ERROR558652[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,048]ERROR558653[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,048]ERROR558653[Thread-50-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:43:25,048]ERROR558653[Thread-22-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:43:25,048]ERROR558653[Thread-58-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:43:25,049]ERROR558654[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,052]ERROR558657[Thread-50-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,862]ERROR559467[Thread-42-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,878]ERROR559483[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,878]ERROR559483[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:43:25,879]ERROR559484[Thread-42-AuthenticationBolt](Authentication.java:71) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:43:25,883]ERROR559488[Thread-42-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:45:41,142]ERROR 16797[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:45:41,144]ERROR 16799[Thread-58-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:45:41,156]ERROR 16811[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:45:41,175]ERROR 16830[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:45:41,175]ERROR 16830[Thread-58-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:45:41,184]ERROR 16839[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,384]ERROR 16444[Thread-50-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,393]ERROR 16453[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,400]ERROR 16460[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,394]ERROR 16454[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,413]ERROR 16473[Thread-58-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,418]ERROR 16478[Thread-22-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,423]ERROR 16483[Thread-41-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,424]ERROR 16484[Thread-58-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,425]ERROR 16485[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,449]ERROR 16509[Thread-50-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,462]ERROR 16522[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,462]ERROR 16522[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,470]ERROR 16530[Thread-30-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,482]ERROR 16542[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,485]ERROR 16545[Thread-22-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,492]ERROR 16552[Thread-22-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,501]ERROR 16561[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,502]ERROR 16562[Thread-50-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,533]ERROR 16593[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,534]ERROR 16594[Thread-41-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,548]ERROR 16608[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,560]ERROR 16620[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:51:18,561]ERROR 16621[Thread-30-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:51:18,571]ERROR 16631[Thread-30-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:53:41,914]ERROR159974[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:53:41,915]ERROR159975[Thread-41-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:53:41,918]ERROR159978[Thread-41-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:55:22,332]ERROR 14264[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra
+[2018-05-09 19:55:22,343]ERROR 14275[Thread-48-AuthenticationBolt](Authentication.java:72) - Unable to connect cassandra @ Authentication :isautheroziedDevicetype
+[2018-05-09 19:55:22,361]ERROR 14293[Thread-48-AuthenticationBolt](CassandraConnector.java:58) - unable to connect Cassandra

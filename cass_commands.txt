@@ -1,0 +1,272 @@
+CREATE KEYSPACE deneebo WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '2'}  AND durable_writes = true;
+
+CREATE TABLE deneebo.devicetypes (
+    key text PRIMARY KEY,
+    deviceid text,
+    latitude text,
+    longitude text,
+    month text,
+    receivedtime text,
+    streamdate text,
+    year text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.SnappyCompressor'}
+    AND dclocal_read_repair_chance = 0.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.1
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX devicetypes_deviceid_idx ON deneebo.devicetypes (deviceid);
+CREATE INDEX devicetypes_latitude_idx ON deneebo.devicetypes (latitude);
+CREATE INDEX devicetypes_longitude_idx ON deneebo.devicetypes (longitude);
+CREATE INDEX devicetypes_month_idx ON deneebo.devicetypes (month);
+CREATE INDEX devicetypes_receivedtime_idx ON deneebo.devicetypes (receivedtime);
+CREATE INDEX devicetypes_streamdate_idx ON deneebo.devicetypes (streamdate);
+CREATE INDEX devicetypes_year_idx ON deneebo.devicetypes (year);
+
+CREATE TABLE deneebo.users (
+    key text PRIMARY KEY,
+    deviceid text,
+    devicetypeid text,
+    keyspac text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.SnappyCompressor'}
+    AND dclocal_read_repair_chance = 0.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.1
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX users_deviceid_idx ON deneebo.users (deviceid);
+CREATE INDEX users_devicetypeid_idx ON deneebo.users (devicetypeid);
+CREATE INDEX users_keyspac_idx ON deneebo.users (keyspac);
+
+CREATE TABLE deneebo.rulesbyevent (
+    key text PRIMARY KEY,
+    ruleid text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX rulesbyevent_ruleid_idx ON deneebo.rulesbyevent (ruleid);
+
+CREATE TABLE deneebo.tags (
+    key text PRIMARY KEY,
+    tagname text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+
+CREATE TABLE deneebo.rules (
+    key text PRIMARY KEY,
+    availrule text,
+    rulestatus text,
+    service text,
+    tagid text,
+    threshold text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX rules_availrule_idx ON deneebo.rules (availrule);
+CREATE INDEX rules_rulestatus_idx ON deneebo.rules (rulestatus);
+CREATE INDEX rules_service_idx ON deneebo.rules (service);
+CREATE INDEX rules_tagid_idx ON deneebo.rules (tagid);
+CREATE INDEX rules_threshold_idx ON deneebo.rules (threshold);
+
+CREATE TABLE deneebo.eventsbydevicetype (
+    key text PRIMARY KEY,
+    eventid text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.SnappyCompressor'}
+    AND dclocal_read_repair_chance = 0.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.1
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX eventsbydevicetype_eventid_idx ON deneebo.eventsbydevicetype (eventid);
+
+CREATE TABLE deneebo.e0 (
+    key text PRIMARY KEY,
+    "KEY" text,
+    dispdate text,
+    disptime text,
+    mid text,
+    mlid text,
+    month text,
+    pc text,
+    pid text,
+    projectid text,
+    receivedtime text,
+    sinfo text,
+    streamdate text,
+    year text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+
+CREATE TABLE deneebo.e0bydevice (
+    key text PRIMARY KEY,
+    receivedtime text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX e0bydevice_receivedtime_idx ON deneebo.e0bydevice (receivedtime);
+
+CREATE TABLE deneebo.tagsbyevent (
+    key text PRIMARY KEY,
+    dispdate text,
+    disptime text,
+    mid text,
+    mlid text,
+    pc text,
+    projectid text,
+    sinfo text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX tagsbyevent_dispdate_idx ON deneebo.tagsbyevent (dispdate);
+CREATE INDEX tagsbyevent_disptime_idx ON deneebo.tagsbyevent (disptime);
+CREATE INDEX tagsbyevent_mid_idx ON deneebo.tagsbyevent (mid);
+CREATE INDEX tagsbyevent_mlid_idx ON deneebo.tagsbyevent (mlid);
+CREATE INDEX tagsbyevent_pc_idx ON deneebo.tagsbyevent (pc);
+CREATE INDEX tagsbyevent_projectid_idx ON deneebo.tagsbyevent (projectid);
+CREATE INDEX tagsbyevent_sinfo_idx ON deneebo.tagsbyevent (sinfo);
+
+CREATE TABLE deneebo.locationbydevice (
+    key text PRIMARY KEY,
+    latitude text,
+    longitude text,
+    status text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.SnappyCompressor'}
+    AND dclocal_read_repair_chance = 0.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.1
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX locationbydevice_latitude_idx ON deneebo.locationbydevice (latitude);
+CREATE INDEX locationbydevice_longitude_idx ON deneebo.locationbydevice (longitude);
+CREATE INDEX locationbydevice_status_idx ON deneebo.locationbydevice (status);
+
+CREATE TABLE deneebo.authenticatedbydevice (
+    deviceid text PRIMARY KEY,
+    devicetypeid text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = '{"keys":"ALL", "rows_per_partition":"NONE"}'
+    AND comment = ''
+    AND compaction = {'min_threshold': '4', 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32'}
+    AND compression = {'sstable_compression': 'org.apache.cassandra.io.compress.SnappyCompressor'}
+    AND dclocal_read_repair_chance = 0.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.1
+    AND speculative_retry = '99.0PERCENTILE';
+CREATE INDEX authenticatedbydevice_devicetypeid_idx ON deneebo.authenticatedbydevice (devicetypeid);
+
+
+insert into tags(key, tagname) values ('20180423', ' dispdate');
+insert into tags(key, tagname) values ('10' ,'sinfo');
+insert into tags(key, tagname) values ('4','pc');
+insert into tags(key, tagname) values ('Adayar','mlid');
+insert into tags(key, tagname) values ('3','pc');
+insert into tags(key, tagname) values ('4','pc');
+insert into tags(key, tagname) values ('5','pc');
+insert into tags(key, tagname) values ('50','projectid');
+insert into tags(key, tagname) values ('2','mid');
+insert into tags(key, tagname) values ('11:15:02','disptime');
+insert into tags(key, tagname) values ('null','pid');
+
+insert into rules(key, availrule, rulestatus, service, tagid, threshold) values(' r1','rulename','enabled','email', 'Adayar', '2.0');cqlsh:deneebo> select * from rules;
+
+insert into tagsbyevent(key,dispdate, disptime,mid,mlid, pc ,projectid , sinfo) values( '0', '20180423' ,'11:15:02' , '2' , 'Adayar','4', '50','10' );
+
+insert into rulesbyevent(key,ruleid) values('0','r1');
+
+insert into rules(key ,availrule ,rulestatus ,service ,tagid  ,threshold) values( 'r1', 'rulename', ' enabled', 'email', 'Adayar', '2.0');
+
+
